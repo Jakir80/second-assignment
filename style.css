@@ -1,0 +1,395 @@
+/* universal css */
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Open Sans", sans-serif;
+}
+/* header container css */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 15px 10px;
+  width: 100%;
+  max-width: 1440px;
+}
+.list-style {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.list-style li a {
+  text-decoration: none;
+  color: black;
+}
+/* banner tect css */
+.banner-text-btn {
+  text-align: center;
+  margin-top: 116px;
+}
+.banner-text-btn h2 {
+  font-weight: 700;
+  font-size: 64px;
+}
+/* header */
+header {
+  background-color: antiquewhite;
+  margin: auto;
+}
+.primary-btn {
+  width: 180px;
+  height: 64px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #ff900e;
+  margin-bottom: 50px;
+  color: #ffffff;
+  font-size: 20px;
+}
+.banner {
+  max-width: 1440px;
+  width: 100%;
+  max-height: 720px;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+/* photo gallery css */
+.photo-gallery {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 100px;
+  gap: 200px;
+}
+.all-photo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+.photo-details-right-side {
+  margin-top: 300px;
+}
+.photo-details-right-side p {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.photo-details-right-side strong {
+  color: #ff900e;
+  font-size: 35px;
+  font-weight: 700;
+}
+.photo-details-right-side h2 {
+  font-size: 35px;
+}
+.photo-details-right-side span {
+  color: black;
+  font-size: 35px;
+}
+.feather-section {
+  margin: auto;
+  max-width: 1140px;
+  width: 100%;
+  margin-top: 120px;
+}
+.container-feather {
+  display: flex;
+  gap: 70px;
+}
+/* feather side css */
+.feather-left-side {
+  margin-left: -124px;
+}
+.feather-left-side h2 p {
+  margin-top: 10px;
+}
+.feather-card p {
+  color: #727272;
+}
+
+.feather-left-side before::h2 {
+  position: absolute;
+  width: 5px;
+  height: 106px;
+  background-color: aqua;
+  color: black;
+}
+.feather-left-side h2 {
+  position: relative;
+}
+.common {
+  margin-bottom: 15px;
+  border-left: 3px solid #ff900e;
+  padding-left: 5px;
+}
+
+.paragraph {
+  margin-bottom: 30px;
+}
+
+.feather-card {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 30px 42px;
+  margin-bottom: 10px;
+
+  width: 570px;
+  height: 150px;
+}
+.feather-card h4 {
+  margin-bottom: 15px;
+}
+.feather-right-side {
+  position: relative;
+}
+.for-10 {
+  position: absolute;
+  background-color: aqua;
+  padding: 46px 50px;
+  top: 877px;
+  right: 474px;
+  display: inline-block;
+  background: #ff900e;
+  border-radius: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+/* for 10 years + btn */
+.for-10 h2 {
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.for-10 p {
+  font-size: 25px;
+  font-weight: 500;
+}
+.some-fact {
+  max-width: 1140px;
+  width: 1140px;
+  margin: auto;
+  margin-top: 130px;
+  margin-bottom: 60px;
+}
+.some-fact-text {
+  text-align: left;
+  margin-left: -98px;
+}
+.some-fact-text h2 {
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+/* some fact left bordr css */
+.some-fact-text p {
+  margin-bottom: 100px;
+  color: #727272;
+  font-size: 20px;
+  line-height: 30px;
+}
+.image-details {
+  text-align: center;
+  border: 2px solid #ff900e;
+  width: 169px;
+  height: 140px;
+  padding: 10px 10px;
+  border-radius: 7px;
+}
+/* award section */
+.award-section {
+  width: 1140px;
+  margin: auto;
+}
+.all-icon {
+  display: flex;
+  gap: 124px;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+.all-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.sponser {
+  margin: auto;
+  max-width: 1140px;
+}
+/* hover section css */
+.image-details:hover {
+  color: #66de0a;
+  background-color: rgb(205, 43, 226);
+  transition: 0.5s;
+}
+/* sponser css */
+.sponser-text {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.all-sponser {
+  display: flex;
+  justify-content: space-around;
+  gap: 70px;
+  align-items: center;
+}
+.sponser-img {
+  filter: grayscale(100%);
+}
+.our-design {
+  width: 100%;
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.our-design-lef-text {
+  margin-top: 100px;
+}
+.our-design-lef-text h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: #111010;
+}
+/* footer section */
+
+footer p {
+  background-color: antiquewhite;
+  padding: 40px;
+  text-align: center;
+}
+footer {
+  max-width: 1140px;
+  width: 100%;
+
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 576px) {
+  .container,
+  .list-style {
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    padding: 15px 0px;
+    gap: 10px;
+  }
+  .photo-gallery {
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-direction: column;
+    padding: 0;
+    gap: 0;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  .banner img {
+    max-width: 100%;
+  }
+  .banner-text-btn {
+    margin-top: 20px;
+  }
+  .all-photo {
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 10px;
+  }
+  .all-img {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .photo-details-right-side {
+    margin-top: 0;
+  }
+  .container-feather {
+    flex-direction: column;
+  }
+  .feather-card {
+    width: 100%;
+    height: 100%;
+    padding: 30px 0px;
+    text-align: center;
+  }
+  .feather-right-side img {
+    width: 100%;
+    height: 100%;
+  }
+  .feather-card h4 p {
+    text-align: center;
+  }
+
+  .feather-left-side {
+    text-align: center;
+    align-items: center;
+  }
+  .feather-section {
+    align-items: center;
+    margin-top: 20px;
+  }
+  .some-fact {
+    text-align: center;
+    width: 100%;
+    margin: 0px 0px;
+  }
+  .some-fact-text {
+    text-align: center;
+  }
+  .award-section {
+    gap: 10px;
+    margin-bottom: 10px;
+    justify-items: center;
+    width: 100%;
+  }
+  .all-icon {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .image-details {
+    padding: 10px 10px;
+    border-radius: 7px;
+  }
+  .sponser {
+    width: 100%;
+  }
+  .all-sponser {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .sponser-text {
+    margin-bottom: 20px;
+  }
+
+  .our-design {
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    align-items: center;
+  }
+  .our-design img {
+    max-width: 100%;
+  }
+  .our-design-lef-text {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  footer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+/* footer section end */
